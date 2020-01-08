@@ -75,7 +75,7 @@ public class Login extends javax.swing.JFrame {
         Pass.setOpaque(false);
         getContentPane().add(Pass, new org.netbeans.lib.awtextra.AbsoluteConstraints(435, 373, 255, 32));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Aplikasi/Artboard 7@1.25x.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Gambar/Artboard 7@1.25x.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1125, 625));
 
         setSize(new java.awt.Dimension(1141, 664));

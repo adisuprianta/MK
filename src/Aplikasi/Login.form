@@ -90,7 +90,7 @@
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/Aplikasi/Artboard 7@1.25x.png"/>
+          <Image iconType="3" name="/Gambar/Artboard 7@1.25x.png"/>
         </Property>
       </Properties>
       <Constraints>

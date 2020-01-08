@@ -27,6 +27,7 @@ public class Pendaftaran extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel3 = new javax.swing.JLabel();
         Nama_pengguna = new javax.swing.JTextField();
         Konfirmasi_sandi = new javax.swing.JPasswordField();
         Nama_perusahaan = new javax.swing.JTextField();
@@ -37,6 +38,14 @@ public class Pendaftaran extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Gambar/Back.PNG"))); // NOI18N
+        jLabel3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jLabel3MouseClicked(evt);
+            }
+        });
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(328, 116, -1, -1));
 
         Nama_pengguna.setBorder(null);
         Nama_pengguna.setOpaque(false);
@@ -71,7 +80,7 @@ public class Pendaftaran extends javax.swing.JFrame {
         });
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(435, 470, 255, 45));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Aplikasi/Pendaftaran.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Gambar/Pendaftaran.png"))); // NOI18N
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         setSize(new java.awt.Dimension(1141, 664));
@@ -113,6 +122,12 @@ public class Pendaftaran extends javax.swing.JFrame {
             Pemberitahuan.setText(null);
         }
     }//GEN-LAST:event_Konfirmasi_sandiKeyReleased
+
+    private void jLabel3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel3MouseClicked
+        // TODO add your handling code here:
+        new Login().setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_jLabel3MouseClicked
 
     /**
      * @param args the command line arguments
@@ -162,5 +177,6 @@ public class Pendaftaran extends javax.swing.JFrame {
     private javax.swing.JLabel Pemberitahuan;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     // End of variables declaration//GEN-END:variables
 }
